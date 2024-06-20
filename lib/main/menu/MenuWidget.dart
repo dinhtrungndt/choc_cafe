@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-    
+
 class MenuWidget extends StatefulWidget {
   const MenuWidget({Key? key}) : super(key: key);
 
@@ -12,7 +12,7 @@ class _MenuWidgetState extends State<MenuWidget> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(''),
+        title: const Text('Menu Screen'),
       ),
       body: Container(),
     );

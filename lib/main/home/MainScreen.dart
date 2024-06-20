@@ -18,9 +18,9 @@ class _MainScreenState extends State<MainScreen> {
   int _selectedIndex = 0;
   static const List<Widget> _screens = [
     HomeScreen(),
-    FavoriteScreen(),
     MenuWidget(),
     OrderWidget(),
+    FavoriteScreen(),
   ];
 
   void _onItemTapped(int index) {
@@ -42,16 +42,16 @@ class _MainScreenState extends State<MainScreen> {
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(IconlyLight.heart),
-            label: 'Favorites',
-          ),
-          BottomNavigationBarItem(
             icon: Icon(IconlyLight.category),
             label: 'Menu',
           ),
           BottomNavigationBarItem(
             icon: Icon(IconlyLight.buy),
             label: 'Orders',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(IconlyLight.heart),
+            label: 'Favorites',
           ),
         ],
         selectedItemColor: Colors.blue,

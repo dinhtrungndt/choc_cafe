@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-    
+
 class OrderWidget extends StatefulWidget {
   const OrderWidget({Key? key}) : super(key: key);
 
@@ -12,7 +12,7 @@ class _OrderWidgetState extends State<OrderWidget> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(''),
+        title: const Text('Order Screen?'),
       ),
       body: Container(),
     );

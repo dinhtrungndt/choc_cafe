@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-    
+
 class FavoriteScreen extends StatefulWidget {
   const FavoriteScreen({Key? key}) : super(key: key);
 
@@ -12,7 +12,7 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(''),
+        title: const Text('Favorite Screen'),
       ),
       body: Container(),
     );
